@@ -1,0 +1,144 @@
+<main>
+    <section class="bc" >
+        <p><span></span>Back</p>
+    </section>
+    <section class="sec--one">
+        <p class="hello">Progress</p>
+    </section>
+    <section class="sec-info">
+        <article>
+            <p>PALA ING A1 CLASS 5</p>
+            <span class="ico-on"></span>
+            <p>SMART ACADEMY S.A.S</p>
+        </article>
+        <article>
+            <p class="m">est.ibjuan@smart.edu.co</p>
+            <span class="ico-on"></span>
+            <p class="m">Last active 21 hours ago</p>
+        </article>
+    </section>
+    <section class="boo">
+        <img src="../../../assets/imgs/book.png" alt="">
+        <p>Interchange Fifth Edition Level 1</p>
+    </section>
+    <section class="sec--two" > 
+        <a><span></span>Understanding the data</a>
+    </section>
+    <section class="sec-thr" >
+        <div class="st">
+            <p class="tt">Digital Workbook</p>
+            <span class="arrow-on" [class.active]="unitCtrStatus" ></span>
+        </div>
+        <article (click)="toggleUnitCtr()">
+            <div>
+                <img class="img-o" src="../../../assets/imgs/loaded.png" alt="">
+                <p class="ti pp"><b>158</b>/247</p>
+                <p>Completed</p>
+            </div>
+            <div>
+                <img class="img-tw" src="../../../assets/imgs/gold-fill-star.png" alt="">
+                <p class="ti"><b>158</b>/158</p>
+                <p>Above target</p>
+            </div>
+            <div>
+                <img class="img-thr" src="../../../assets/imgs/gold-star.png" alt="">
+                <p class="ti"><b>0</b>/158</p>
+                <p>Bellow target</p>
+            </div>
+            <div>
+                <img class="img-fou" src="../../../assets/imgs/avg.png" alt="">
+                <p class="ti"><b>100%</b></p>
+                <p>Average score</p>
+            </div>
+            <div>
+                <img class="img-fiv" src="../../../assets/imgs/time.png" alt="">
+                <p class="ti">12h 43m   </p>
+                <p>Time spent</p>
+            </div>
+        </article>
+        <div [ngClass]="{ 'active': unitCtrStatus, 'activeDetails': detailsCtrStatus }"  class="progss" *ngFor="let unit of dataUnits" >
+            <div class="ctr" (click)="toggleDetails()" >
+                <div class="ddv">
+                    <img src="../../../assets/imgs/load-completed.png" alt="">
+                    <div class="ctr-pa">                    
+                        <p>{{ unit.numUnit }}</p>
+                        <p class="pb"><b>{{ unit.numFill }}</b>{{'/' + unit.numCompleted + ' Completed'}}</p>
+                    </div>
+                    <p class="pgs">100%</p>
+                    <p class="tim">{{ unit.timeSpent }}</p>
+                </div>
+                <span [class.active]="detailsCtrStatus" ></span>
+            </div>
+            <div class="ctr-tw" [class.active]="detailsCtrStatus" >
+                <div>
+                    <div class="ss vy" (click)="toggleTests()" >
+                        <p >Vocabulary</p>
+                        <span></span>
+                    </div>
+                    <div class="ctr--dt" [class.active]="testsCtrStatus" >
+                        <div>
+                            <p>Vocabulary Exercise 1</p>
+                            <span></span>
+                            <ul>
+                                <li>
+                                    <p>First score</p>
+                                    <p><b>75%</b></p>
+                                </li>
+                                <li>
+                                    <p>Best score</p>
+                                    <p><b>100%</b></p>
+                                </li>
+                                <li>
+                                    <p>Attempts</p>
+                                    <p><b>4</b></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Vocabulary Exercise 2</p>
+                            <span></span>
+                            <ul>
+                                <li>
+                                    <p>First score</p>
+                                    <p><b>75%</b></p>
+                                </li>
+                                <li>
+                                    <p>Best score</p>
+                                    <p><b>100%</b></p>
+                                </li>
+                                <li>
+                                    <p>Attempts</p>
+                                    <p><b>2</b></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="ss">
+                        <p>Grammar</p>
+                        <span></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="ss">
+                        <p>Listening</p>
+                        <span></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="ss">
+                        <p>Reading</p>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bl">
+                    <div class="ss ss-nd">
+                        <p>Video</p>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

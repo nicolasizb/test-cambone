@@ -1,1 +1,75 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cup-main-color-1: #8723ff;
+    --cup-main-color-1-rgb: 135, 35, 255;
+    --cup-main-color-2: #7200D9;
+    --cup-main-color-2-rgb: 114, 0, 217;
+    --cup-main-color-3: #BE8CFF;
+    --cup-main-color-3-rgb: 190, 140, 255;
+    --cup-main-color-4: #8461B2;
+    --cup-main-color-4-rgb: 132, 97, 178;
+    --cup-main-color-5: #A177D9;
+    --cup-main-color-5-rgb: 161, 119, 217;
+    --cup-main-color-6: #CEA8FF;
+    --cup-main-color-6-rgb: 206, 168, 255;
+    --cup-main-color-7: #00AF41;
+    --cup-main-color-7-rgb: 0, 175, 65;
+    --cup-main-color-8: #009437;
+    --cup-main-color-8-rgb: 0, 148, 55;
+    --cup-main-color-9: #00CD6E;
+    --cup-main-color-9-rgb: 0, 205, 110;
+    --cup-main-color-10: #008F4C;
+    --cup-main-color-10-rgb: 0, 143, 76;
+    --cup-main-color-11: #00AE5D;
+    --cup-main-color-11-rgb: 0, 174, 93;
+    --cup-main-color-12: #40D992;
+    --cup-main-color-12-rgb: 64, 217, 146;
+    --cup-secondary-color-1: #E6C84A;
+    --cup-secondary-color-1-rgb: 230, 200, 74;
+    --cup-secondary-color-2: #CAA81C;
+    --cup-secondary-color-2-rgb: 202, 168, 28;
+    --cup-secondary-color-3: #F0DD8F;
+    --cup-secondary-color-3-rgb: 240, 221, 143;
+    --cup-secondary-color-4: #FBF6E4;
+    --cup-secondary-color-4-rgb: 251, 246, 228;
+    --cup-secondary-color-5: #00B4FF;
+    --cup-secondary-color-5-rgb: 0, 180, 255;
+    --cup-secondary-color-6: #3FC6FF;
+    --cup-secondary-color-6-rgb: 63, 198, 255;
+    --cup-error-color-1: #E1195F;
+    --cup-error-color-1-rgb: 225, 25, 95;
+    --cup-success-color-1: #388700;
+    --cup-success-color-1-rgb: 56, 135, 0;
+    --cup-general-color-1: #FFFFFF;
+    --cup-general-color-1-rgb: 255, 255, 255;
+    --cup-general-color-2: #F2F2F2;
+    --cup-general-color-2-rgb: 242, 242, 242;
+    --cup-general-color-3: #B4B4B4;
+    --cup-general-color-3-rgb: 180, 180, 180;
+    --cup-general-color-4: #696969;
+    --cup-general-color-4-rgb: 105, 105, 105;
+    --cup-general-color-5: #323232;
+    --cup-general-color-5-rgb: 50, 50, 50;
+    --cup-tile-border-radius: 2px;
+    --cup-tab-focus-color-1: #323232;
+    --cup-tab-focus-color-1-rgb: 50, 50, 50;
+    --cup-tab-focus-color-2: #E6C84A;
+    --cup-tab-focus-color-2-rgb: 230, 200, 74;
+    --font: 'Mulish', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
