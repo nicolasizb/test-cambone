@@ -107,6 +107,8 @@
                 background-repeat: no-repeat;     
             }
             &.active {
+                border-bottom: solid 0.1rem #e2e2e2;
+
                 span {
                     transform: rotate(180deg);
                     transition: all ease-in-out 0.1s;

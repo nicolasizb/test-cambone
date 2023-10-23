@@ -1,23 +1,31 @@
-div {
+.tt {
     display: flex;
     align-items: center;
     padding: 1.6rem 0.3rem 1.6rem 9rem;
-    border-top: solid 0.1rem #e2e2e2;
 
-    p {
-        font-size: 1.5rem;
-        font-weight: 400;
-        color: #323232;
-    }
-    span {
-        width: 2.3rem;
-        height: 2.3rem;
-        margin-left: 9rem;
-        margin-right: 6rem;
-        background-image: url('../../../assets/imgs/gold-fill-star.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
+    .yy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 28rem;
+        margin-right: 4rem;
+
+        p {
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: #323232;
+            min-width: 16rem;
+        }
+        span {
+            min-width: 2.3rem;
+            min-height: 2.3rem;
+            margin-left: 9rem;
+            margin-right: 6rem;
+            background-image: url('../../../assets/imgs/gold-fill-star.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
     }
     ul {
         display: flex;
@@ -34,6 +42,8 @@ div {
 
             p {
                 font-size: 1.3rem;
+                min-width: 7rem;
+                width: 100%;
 
                 b {
                     font-weight: 700;
