@@ -57,88 +57,20 @@
             </div>
         </article>
         <div [ngClass]="{ 'active': unitCtrStatus, 'activeDetails': detailsCtrStatus }"  class="progss" *ngFor="let unit of dataUnits" >
-            <div class="ctr" (click)="toggleDetails()" >
-                <div class="ddv">
-                    <img src="../../../assets/imgs/load-completed.png" alt="">
-                    <div class="ctr-pa">                    
-                        <p>{{ unit.numUnit }}</p>
-                        <p class="pb"><b>{{ unit.numFill }}</b>{{'/' + unit.numCompleted + ' Completed'}}</p>
-                    </div>
-                    <p class="pgs">100%</p>
-                    <p class="tim">{{ unit.timeSpent }}</p>
-                </div>
-                <span [class.active]="detailsCtrStatus" ></span>
-            </div>
-            <div class="ctr-tw" [class.active]="detailsCtrStatus" >
-                <div>
-                    <div class="ss vy" (click)="toggleTests()" >
-                        <p >Vocabulary</p>
-                        <span></span>
-                    </div>
-                    <div class="ctr--dt" [class.active]="testsCtrStatus" >
-                        <div>
-                            <p>Vocabulary Exercise 1</p>
-                            <span></span>
-                            <ul>
-                                <li>
-                                    <p>First score</p>
-                                    <p><b>75%</b></p>
-                                </li>
-                                <li>
-                                    <p>Best score</p>
-                                    <p><b>100%</b></p>
-                                </li>
-                                <li>
-                                    <p>Attempts</p>
-                                    <p><b>4</b></p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <p>Vocabulary Exercise 2</p>
-                            <span></span>
-                            <ul>
-                                <li>
-                                    <p>First score</p>
-                                    <p><b>75%</b></p>
-                                </li>
-                                <li>
-                                    <p>Best score</p>
-                                    <p><b>100%</b></p>
-                                </li>
-                                <li>
-                                    <p>Attempts</p>
-                                    <p><b>2</b></p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="ss">
-                        <p>Grammar</p>
-                        <span></span>
-                    </div>
-                </div>
-                <div>
-                    <div class="ss">
-                        <p>Listening</p>
-                        <span></span>
-                    </div>
-                </div>
-                <div>
-                    <div class="ss">
-                        <p>Reading</p>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="bl">
-                    <div class="ss ss-nd">
-                        <p>Video</p>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
+            <app-unit
+            [imgStatusListener]="unit.imgStatus"
+            [numUnitListener]="unit.numUnit"
+            [numFillListener]="unit.numFill"
+            [numCompletedListener]="unit.numCompleted"
+            [timeSpentListener]="unit.timeSpent"
+            [finishedListener]="unit.finishedUnit"
+
+            [vocabularyArrayListener]="unit.vocabulary"
+            [grammarArrayListener]="unit.grammar"
+            [listeningArrayListener]="unit.listening"
+            [readingArrayListener]="unit.reading"
+            [videoArrayListener]="unit.video"
+            ></app-unit>
         </div>
     </section>
 </main>

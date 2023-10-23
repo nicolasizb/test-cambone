@@ -1,0 +1,133 @@
+.ctr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2.8rem 0;
+    padding-left: 2.4rem;
+    border-top: solid 0.1rem #e2e2e2;
+
+    .ddv {
+        position: relative;
+        display: flex;
+        margin-left: 2.2rem;
+        width: 100%;
+
+        img {
+            margin-right: 1rem;
+            height: 3.5rem;
+        }
+        .ctr-pa {
+            margin-right: 15rem;
+
+            p {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #323232;
+                b {
+                    font-weight: 700;
+                }
+            }
+            .pb {
+                margin-top: 0.2rem;
+                font-size: 1.4rem;
+                font-weight: 500;
+                color: #696969;
+            }
+        }
+        .pgs {
+            position: absolute;
+            bottom: 0;
+            left: 39.1rem;
+            
+            margin: auto 8.9rem 0 0;
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #696969;
+        }
+        .tim {
+            position: absolute;
+            bottom: 0;
+            left: 51.7rem;
+
+            display: none;
+            margin: auto 0 0 0;
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #696969;
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+    span {
+        width: 2.7rem;
+        height: 2.7rem;
+        right: 0;
+        margin-right: 2.4rem;
+        background-image: url('../../../assets/icons/arrow-dark.svg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;   
+
+        &.active {
+            transform: rotate(180deg);
+            transition: all ease-in-out 0.1s;
+        }                 
+    }
+}
+.ctr-tw {
+    display: none;
+
+    > div {
+        width: 100%;
+        margin-right: 0 0.3rem 0 6.5rem;
+        border-bottom: solid 0.1rem #e2e2e2;
+        
+        .ss {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 1.6rem 0;
+
+            p {
+                margin-left: 9rem;
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #323232;
+            }
+            span {
+                width: 2.7rem;
+                height: 2.7rem;
+                margin-right: 2.4rem;
+                background-image: url('../../../assets/icons/arrow-dark.svg');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;     
+            }
+            &.active {
+                span {
+                    transform: rotate(180deg);
+                    transition: all ease-in-out 0.1s;
+                }
+            }
+        }
+        .vy {
+            border-top: solid 0.1rem #e2e2e2;                        
+        }
+        .ctr--dt {
+            display: none;
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+    .bl {
+        border-bottom: none;
+    }
+    &.active {
+        display: block;
+    }
+}
