@@ -18,157 +18,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 4
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '60%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          test: [
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 4
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '60%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 8,
+            fill: 8,
+            timeSpent: '0h 26m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '86%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '86%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '86%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '86%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 5m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }                
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 15m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            }
+          ]
+        }
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 11m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -181,157 +236,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 4m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          test: [
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '33%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 8,
+            fill: 8,
+            timeSpent: '0h 35m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '0%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '33%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '0%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 5m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }    
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 15m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+          ]
+        }
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 7m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+          ]
+        }
       ]
     },
     {
@@ -344,157 +454,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 2m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 8,
+            fill: 8,
+            timeSpent: '0h 25m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '89%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '89%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 16m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 5m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '93%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '93%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 3m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ]
     },
     {
@@ -507,157 +672,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 5m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '60%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '60%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 8,
+            fill: 8,
+            timeSpent: '0h 28m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 5
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '93%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 5
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '93%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 12m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '86%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 13m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '86%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 19m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }        
       ]
     },
     {
@@ -670,157 +890,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 4m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 8,
+            fill: 8,
+            timeSpent: '1h 36m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '78%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '25%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 7
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '78%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '78%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '25%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 7
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '78%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 8m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 11m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '86%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 10m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '86%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }      
       ]
     },
     {
@@ -833,157 +1108,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 5m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '89%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '89%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 8,
+            fill: 8,
+            timeSpent: '0h 50m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 7
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 8
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 7
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 8
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 4m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }            
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 9m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 8m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+          ]
+        }        
       ]
     },
     {
@@ -996,148 +1326,203 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 4
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 16m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 4
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 7,
+            fill: 7,
+            timeSpent: '0h 19m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '91%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        }
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '91%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }      
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 11m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 22m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 14m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            }
+          ]
+        }        
       ]
     },
     {
@@ -1150,148 +1535,203 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 3m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 7,
+            fill: 7,
+            timeSpent: '0h 21m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ],          
         }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 5m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }            
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 10m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 4m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '60%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '60%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }
       ]
     },
     {
@@ -1304,157 +1744,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 7m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 8,
+            fill: 8,
+            timeSpent: '0h 43m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '20%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 5
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '33%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 6
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '20%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 5
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '33%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 6
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 5m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 16m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 8m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }        
       ]
     },
     {
@@ -1467,157 +1962,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 3m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 8,
+            fill: 8,
+            timeSpent: '0h 32m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '78%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '86%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '87%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '64%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '78%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 5
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '78%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '86%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '60%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '78%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 5
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '93%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 6m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
+        }        
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '73%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 9m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 11m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3 
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3 
+            }
+          ]
+        }        
       ]
     },
     {
@@ -1630,157 +2180,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 11m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '89%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '89%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 7
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 8
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 7
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 8
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ]
     },
     {
@@ -1793,157 +2398,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 11m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '89%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '89%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 7
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 8
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 7
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 8
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -1956,119 +2616,159 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 11m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '89%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '89%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 7
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 8
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 7
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 8
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       reading: [
+        {
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
+        },
         {
           detailName: 'Reading Exercise 1',
           detatilScore: 'First score',
@@ -2090,23 +2790,34 @@ export class MainComponent {
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ]
     },
     {
@@ -2119,157 +2830,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 11m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '89%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '89%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 7
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 8
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 7
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 8
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -2282,157 +3048,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 11m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '89%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '89%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 7
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 8
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 7
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 8
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ]
     },
     {
@@ -2445,157 +3266,212 @@ export class MainComponent {
 
       vocabulary: [
         {
-          detailName: 'Vocabulary Exercise 1',
-          detatilScore: 'First score',
-          percent: '50%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 11m'
+          },
         },
         {
-          detailName: 'Vocabulary Exercise 2',
-          detatilScore: 'First score',
-          percent: '89%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          test: [            
+            {
+              detailName: 'Vocabulary Exercise 1',
+              detatilScore: 'First score',
+              percent: '50%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Vocabulary Exercise 2',
+              detatilScore: 'First score',
+              percent: '89%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            }
+          ]
         }
       ],
       grammar: [
         {
-          detailName: 'Grammar Exercise 1',
-          detatilScore: 'First score',
-          percent: '88%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Grammar Exercise 2',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
-        },
-        {
-          detailName: 'Grammar Exercise 3',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
-        },
-        {
-          detailName: 'Grammar Exercise 4',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 5',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
-        {
-          detailName: 'Grammar Exercise 6',
-          detatilScore: 'First score',
-          percent: '80%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 7
-        },
-        {
-          detailName: 'Grammar Exercise 7',
-          detatilScore: 'First score',
-          percent: '83%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 8
-        },
-        {
-          detailName: 'Grammar Exercise 8',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Grammar Exercise 1',
+              detatilScore: 'First score',
+              percent: '88%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 2',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Grammar Exercise 3',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Grammar Exercise 4',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 5',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Grammar Exercise 6',
+              detatilScore: 'First score',
+              percent: '80%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 7
+            },
+            {
+              detailName: 'Grammar Exercise 7',
+              detatilScore: 'First score',
+              percent: '83%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 8
+            },
+            {
+              detailName: 'Grammar Exercise 8',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ],
       listening: [
         {
-          detailName: 'Listening Exercise 1',
-          detatilScore: 'First score',
-          percent: '75%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 2
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Listening Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Listening Exercise 1',
+              detatilScore: 'First score',
+              percent: '75%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 2
+            },
+            {
+              detailName: 'Listening Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ],
       reading: [
         {
-          detailName: 'Reading Exercise 1',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Reading Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Reading Exercise 1',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            },
+            {
+              detailName: 'Reading Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }        
       ],
       video: [
         {
-          detailName: 'Video Exercise 1',
-          detatilScore: 'First score',
-          percent: '67%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 3
+          objFill: {
+            completed: 2,
+            fill: 2,
+            timeSpent: '0h 24m'
+          },
         },
         {
-          detailName: 'Video Exercise 2',
-          detatilScore: 'First score',
-          percent: '100%',
-          detailBest: 'Best score',
-          bestPercent: '100%',
-          detailAttempts: 'Attempts',
-          attempts: 1
-        },
+          test: [
+            {
+              detailName: 'Video Exercise 1',
+              detatilScore: 'First score',
+              percent: '67%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 3
+            },
+            {
+              detailName: 'Video Exercise 2',
+              detatilScore: 'First score',
+              percent: '100%',
+              detailBest: 'Best score',
+              bestPercent: '100%',
+              detailAttempts: 'Attempts',
+              attempts: 1
+            }
+          ]
+        }
       ]
     },
   ]

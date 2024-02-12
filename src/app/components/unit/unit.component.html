@@ -5,95 +5,139 @@
             <p>{{ numUnitListener }}</p>
             <p class="pb"><b>{{ numFillListener }}</b>{{'/' + numCompletedListener + ' Completed'}}</p>
         </div>
-        <p class="pgs">{{ finishedListener }}</p>
-        <p [class.active]="detailsCtrStatus" class="tim">{{ timeSpentListener }}</p>
+        <p class="pgs"><b>{{ finishedListener }}</b></p>
+        <p [class.active]="detailsCtrStatus" class="tim"><b>{{ timeSpentListener }}</b></p>
     </div>
     <span [class.active]="detailsCtrStatus" ></span>
 </div>
+
 <div class="ctr-tw" [class.active]="detailsCtrStatus" >
-    <div>
-        <div class="ss vy" [class.active]="testsCtrStatusVo" (click)="toggleTestsVo()" >
-            <p>Vocabulary</p>
-            <span></span>
+    <div class="tw">
+        <div class="tw-tt" (click)="toggleTestsVo()" >
+            <img [class.active]="testsCtrStatusVo" [src]="img" alt="">
+            <div class="ctr-pa">                    
+                <p>Vocabulary</p>
+                <p class="pb" *ngIf="vocabularyDetails.objFill" ><b>{{ vocabularyDetails.objFill.fill }}</b>{{'/' + vocabularyDetails.objFill.completed + ' Completed'}}</p>
+            </div>
+            <p class="pgs">{{ finishedListener }}</p>
+            <p [class.active]="detailsCtrStatus" class="tim">{{ vocabularyDetails.objFill.timeSpent }}</p>
         </div>
-        <div class="ctr--dt" [class.active]="testsCtrStatusVo" *ngFor="let test of vocabularyArrayListener" >
-            <app-detail
-            [detailNameListener]="test.detailName"
-            [detatilScoreListener]="test.detatilScore"
-            [percentListener]="test.percent"
-            [detailBestScoreListener]="test.detailBest"
-            [bestPercentListener]="test.bestPercent"
-            [detailAttemptsListener]="test.detailAttempts"
-            [attemptsListener]="test.attempts"
-            ></app-detail>
-        </div>
-    </div>
-    <div>
-        <div class="ss" [class.active]="testsCtrStatusGa" (click)="toggleTestsGa()" >
-            <p>Gammar</p>
-            <span></span>
-        </div>
-        <div class="ctr--dt" [class.active]="testsCtrStatusGa" *ngFor="let test of grammarArrayListener" >
-            <app-detail
-            [detailNameListener]="test.detailName"
-            [detatilScoreListener]="test.detatilScore"
-            [percentListener]="test.percent"
-            [detailBestScoreListener]="test.detailBest"
-            [bestPercentListener]="test.bestPercent"
-            [detailAttemptsListener]="test.detailAttempts"
-            [attemptsListener]="test.attempts"
-            ></app-detail>
+
+        <div [class.active]="testsCtrStatusVo" class="oo">
+            <div class="ctr--dt" [class.active]="testsCtrStatusVo" *ngFor="let test of vocabularyTests" >
+                <app-detail
+                [detailNameListener]="test.detailName"
+                [detatilScoreListener]="test.detatilScore"
+                [percentListener]="test.percent"
+                [detailBestScoreListener]="test.detailBest"
+                [bestPercentListener]="test.bestPercent"
+                [detailAttemptsListener]="test.detailAttempts"
+                [attemptsListener]="test.attempts"
+                ></app-detail>
+            </div>
         </div>
     </div>
-    <div>
-        <div class="ss" [class.active]="testsCtrStatusLi" (click)="toggleTestsLi()" >
-            <p>Listening</p>
-            <span></span>
+
+    <div class="tw">
+        <div class="tw-tt" (click)="toggleTestsGa()" >
+            <img [class.active]="testsCtrStatusGa" [src]="img" alt="">
+            <div class="ctr-pa">                    
+                <p>Grammar</p>
+                <p class="pb" *ngIf="grammarDetails.objFill" ><b>{{ grammarDetails.objFill.fill }}</b>{{'/' + grammarDetails.objFill.completed + ' Completed'}}</p>
+            </div>
+            <p class="pgs">{{ finishedListener }}</p>
+            <p [class.active]="detailsCtrStatus" class="tim">{{ grammarDetails.objFill.timeSpent }}</p>
         </div>
-        <div class="ctr--dt" [class.active]="testsCtrStatusLi" *ngFor="let test of listeningArrayListener" >
-            <app-detail
-            [detailNameListener]="test.detailName"
-            [detatilScoreListener]="test.detatilScore"
-            [percentListener]="test.percent"
-            [detailBestScoreListener]="test.detailBest"
-            [bestPercentListener]="test.bestPercent"
-            [detailAttemptsListener]="test.detailAttempts"
-            [attemptsListener]="test.attempts"
-            ></app-detail>
+        <div [class.active]="testsCtrStatusGa" class="oo">
+            <div class="ctr--dt" [class.active]="testsCtrStatusGa" *ngFor="let test of grammarTests" >
+                <app-detail
+                [detailNameListener]="test.detailName"
+                [detatilScoreListener]="test.detatilScore"
+                [percentListener]="test.percent"
+                [detailBestScoreListener]="test.detailBest"
+                [bestPercentListener]="test.bestPercent"
+                [detailAttemptsListener]="test.detailAttempts"
+                [attemptsListener]="test.attempts"
+                ></app-detail>
+            </div>
+        </div>    
+    </div>
+
+    <div class="tw">
+        <div class="tw-tt" (click)="toggleTestsLi()" >
+            <img [class.active]="testsCtrStatusLi" [src]="img" alt="">
+            <div class="ctr-pa">                    
+                <p>Listening</p>
+                <p class="pb" *ngIf="listeningDetails.objFill.completed" ><b>{{ listeningDetails.objFill.fill }}</b>{{'/' + listeningDetails.objFill.completed + ' Completed'}}</p>
+            </div>
+            <p class="pgs">{{ finishedListener }}</p>
+            <p [class.active]="detailsCtrStatus" class="tim">{{ listeningDetails.objFill.timeSpent }}</p>
+        </div>
+
+        <div [class.active]="testsCtrStatusLi" class="oo">
+            <div class="ctr--dt" [class.active]="testsCtrStatusLi" *ngFor="let test of listeningTests" >
+                <app-detail
+                [detailNameListener]="test.detailName"
+                [detatilScoreListener]="test.detatilScore"
+                [percentListener]="test.percent"
+                [detailBestScoreListener]="test.detailBest"
+                [bestPercentListener]="test.bestPercent"
+                [detailAttemptsListener]="test.detailAttempts"
+                [attemptsListener]="test.attempts"
+                ></app-detail>
+            </div>
         </div>
     </div>
-    <div>
-        <div class="ss" [class.active]="testsCtrStatusRe" (click)="toggleTestsRe()" >
-            <p>Reading</p>
-            <span></span>
+
+    <div class="tw">
+        <div class="tw-tt" (click)="toggleTestsRe()" >
+            <img [class.active]="testsCtrStatusRe" [src]="img" alt="">
+            <div class="ctr-pa">                    
+                <p>Reading</p>
+                <p class="pb" *ngIf="readingDetails.objFill.completed" ><b>{{ readingDetails.objFill.fill }}</b>{{'/' + readingDetails.objFill.completed + ' Completed'}}</p>
+            </div>
+            <p class="pgs">{{ finishedListener }}</p>
+            <p [class.active]="detailsCtrStatus" class="tim">{{ readingDetails.objFill.timeSpent }}</p>
         </div>
-        <div class="ctr--dt" [class.active]="testsCtrStatusRe" *ngFor="let test of readingArrayListener" >
-            <app-detail
-            [detailNameListener]="test.detailName"
-            [detatilScoreListener]="test.detatilScore"
-            [percentListener]="test.percent"
-            [detailBestScoreListener]="test.detailBest"
-            [bestPercentListener]="test.bestPercent"
-            [detailAttemptsListener]="test.detailAttempts"
-            [attemptsListener]="test.attempts"
-            ></app-detail>
+
+        <div [class.active]="testsCtrStatusRe" class="oo">
+            <div class="ctr--dt" [class.active]="testsCtrStatusRe" *ngFor="let test of readingTests" >
+                <app-detail
+                [detailNameListener]="test.detailName"
+                [detatilScoreListener]="test.detatilScore"
+                [percentListener]="test.percent"
+                [detailBestScoreListener]="test.detailBest"
+                [bestPercentListener]="test.bestPercent"
+                [detailAttemptsListener]="test.detailAttempts"
+                [attemptsListener]="test.attempts"
+                ></app-detail>
+            </div>
         </div>
     </div>
-    <div class="bl">
-        <div class="ss" [class.active]="testsCtrStatusVi" (click)="toggleTestsVi()" >
-            <p>Video</p>
-            <span></span>
+
+    <div class="bl tw">
+        <div class="tw-tt" (click)="toggleTestsVi()" >
+            <img [class.active]="testsCtrStatusVi" [src]="img" alt="">
+            <div class="ctr-pa">                    
+                <p>Video</p>
+                <p class="pb" *ngIf="videoDetails.objFill.completed" ><b>{{ videoDetails.objFill.fill }}</b>{{'/' + videoDetails.objFill.completed + ' Completed'}}</p>
+            </div>
+            <p class="pgs">{{ finishedListener }}</p>
+            <p [class.active]="detailsCtrStatus" class="tim">{{ videoDetails.objFill.timeSpent }}</p>
         </div>
-        <div class="ctr--dt" [class.active]="testsCtrStatusVi" *ngFor="let test of videoArrayListener" >
-            <app-detail
-            [detailNameListener]="test.detailName"
-            [detatilScoreListener]="test.detatilScore"
-            [percentListener]="test.percent"
-            [detailBestScoreListener]="test.detailBest"
-            [bestPercentListener]="test.bestPercent"
-            [detailAttemptsListener]="test.detailAttempts"
-            [attemptsListener]="test.attempts"
-            ></app-detail>
+
+        <div [class.active]="testsCtrStatusVi" class="oo">
+            <div class="ctr--dt" [class.active]="testsCtrStatusVi" *ngFor="let test of videoTests" >
+                <app-detail
+                [detailNameListener]="test.detailName"
+                [detatilScoreListener]="test.detatilScore"
+                [percentListener]="test.percent"
+                [detailBestScoreListener]="test.detailBest"
+                [bestPercentListener]="test.bestPercent"
+                [detailAttemptsListener]="test.detailAttempts"
+                [attemptsListener]="test.attempts"
+                ></app-detail>
+            </div>
         </div>
     </div>
 </div>

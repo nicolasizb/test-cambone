@@ -22,11 +22,27 @@ export class UnitComponent {
   @Input() numCompletedListener = 0;
   @Input() timeSpentListener = '';
   @Input() finishedListener = '';
-  @Input() vocabularyArrayListener: Test[] = [];
-  @Input() grammarArrayListener: Test[] = [];
-  @Input() listeningArrayListener: Test[] = [];
-  @Input() readingArrayListener: Test[] = [];
-  @Input() videoArrayListener: Test[] = [];
+
+  @Input() vocabularyArrayListener: any[] = [];
+  @Input() grammarArrayListener: any[] = [];
+  @Input() listeningArrayListener: any[] = [];
+  @Input() readingArrayListener: any[] = [];
+  @Input() videoArrayListener: any[] = [];
+
+  vocabularyDetails: any = {};
+  vocabularyTests: any = {};
+
+  grammarDetails: any = {};
+  grammarTests: any = {};
+
+  listeningDetails: any = {};
+  listeningTests: any = {};
+
+  readingDetails: any = {};
+  readingTests: any = {};
+
+  videoDetails: any = {};
+  videoTests: any = {};
 
   toggleDetails() {
     this.detailsCtrStatus = !this.detailsCtrStatus;
@@ -62,5 +78,20 @@ export class UnitComponent {
 
   ngOnInit() {
     this.checkImg();
+
+    this.vocabularyDetails = this.vocabularyArrayListener[0];
+    this.vocabularyTests = this.vocabularyArrayListener[1].test;
+
+    this.grammarDetails = this.grammarArrayListener[0];
+    this.grammarTests = this.grammarArrayListener[1].test;
+
+    this.listeningDetails = this.listeningArrayListener[0];
+    this.listeningTests = this.listeningArrayListener[1].test;
+
+    this.readingDetails = this.readingArrayListener[0];
+    this.readingTests = this.readingArrayListener[1].test;
+
+    this.videoDetails = this.videoArrayListener[0];
+    this.videoTests = this.videoArrayListener[1].test;
   }
 }
