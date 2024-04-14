@@ -2171,19 +2171,19 @@ export class MainComponent {
       ]
     },
     {
-      imgStatus: false,
+      imgStatus: true,
       numUnit: `Unit 11: It's a really nice city.`,
-      numFill: 0,
+      numFill: 16,
       numCompleted: 16,
-      timeSpent: '0h 0m',
-      finishedUnit: '--',
+      timeSpent: '0h 57m',
+      finishedUnit: '100%',
 
       vocabulary: [
         {
           objFill: {
             completed: 2,
             fill: 2,
-            timeSpent: '0h 11m'
+            timeSpent: '0h 2m'
           },
         },
         {
@@ -2191,11 +2191,11 @@ export class MainComponent {
             {
               detailName: 'Vocabulary Exercise 1',
               detatilScore: 'First score',
-              percent: '50%',
+              percent: '100%',
               detailBest: 'Best score',
               bestPercent: '100%',
               detailAttempts: 'Attempts',
-              attempts: 3
+              attempts: 1
             },
             {
               detailName: 'Vocabulary Exercise 2',
@@ -2212,9 +2212,9 @@ export class MainComponent {
       grammar: [
         {
           objFill: {
-            completed: 2,
-            fill: 2,
-            timeSpent: '0h 24m'
+            completed: 8,
+            fill: 8,
+            timeSpent: '0h 27m'
           },
         },
         {
@@ -2271,7 +2271,7 @@ export class MainComponent {
               detailBest: 'Best score',
               bestPercent: '100%',
               detailAttempts: 'Attempts',
-              attempts: 7
+              attempts: 3
             },
             {
               detailName: 'Grammar Exercise 7',
@@ -2280,7 +2280,7 @@ export class MainComponent {
               detailBest: 'Best score',
               bestPercent: '100%',
               detailAttempts: 'Attempts',
-              attempts: 8
+              attempts: 2
             },
             {
               detailName: 'Grammar Exercise 8',
@@ -2299,7 +2299,7 @@ export class MainComponent {
           objFill: {
             completed: 2,
             fill: 2,
-            timeSpent: '0h 24m'
+            timeSpent: '0h 18m'
           },
         },
         {
@@ -2330,7 +2330,7 @@ export class MainComponent {
           objFill: {
             completed: 2,
             fill: 2,
-            timeSpent: '0h 24m'
+            timeSpent: '0h 7m'
           },
         },
         {
@@ -2361,7 +2361,7 @@ export class MainComponent {
           objFill: {
             completed: 2,
             fill: 2,
-            timeSpent: '0h 24m'
+            timeSpent: '0h 3m'
           },
         },
         {
@@ -2389,19 +2389,19 @@ export class MainComponent {
       ]
     },
     {
-      imgStatus: false,
+      imgStatus: true,
       numUnit: `Unit 12: It's important to get rest.`,
-      numFill: 0,
+      numFill: 15,
       numCompleted: 15,
-      timeSpent: '0h 0m',
-      finishedUnit: '--',
+      timeSpent: '1h 16m',
+      finishedUnit: '100%',
 
       vocabulary: [
         {
           objFill: {
             completed: 2,
             fill: 2,
-            timeSpent: '0h 11m'
+            timeSpent: '0h 16m'
           },
         },
         {
@@ -2413,16 +2413,16 @@ export class MainComponent {
               detailBest: 'Best score',
               bestPercent: '100%',
               detailAttempts: 'Attempts',
-              attempts: 3
+              attempts: 4
             },
             {
               detailName: 'Vocabulary Exercise 2',
               detatilScore: 'First score',
-              percent: '89%',
+              percent: '100%',
               detailBest: 'Best score',
               bestPercent: '100%',
               detailAttempts: 'Attempts',
-              attempts: 2
+              attempts: 1
             }
           ]
         }
@@ -2430,9 +2430,9 @@ export class MainComponent {
       grammar: [
         {
           objFill: {
-            completed: 2,
-            fill: 2,
-            timeSpent: '0h 24m'
+            completed: 7,
+            fill: 7,
+            timeSpent: '0h 17m'
           },
         },
         {
@@ -2440,25 +2440,25 @@ export class MainComponent {
             {
               detailName: 'Grammar Exercise 1',
               detatilScore: 'First score',
-              percent: '88%',
+              percent: '100%',
               detailBest: 'Best score',
               bestPercent: '100%',
               detailAttempts: 'Attempts',
-              attempts: 2
+              attempts: 1
             },
             {
               detailName: 'Grammar Exercise 2',
               detatilScore: 'First score',
-              percent: '75%',
+              percent: '100%',
               detailBest: 'Best score',
               bestPercent: '100%',
               detailAttempts: 'Attempts',
-              attempts: 3
+              attempts: 1
             },
             {
               detailName: 'Grammar Exercise 3',
               detatilScore: 'First score',
-              percent: '67%',
+              percent: '50%',
               detailBest: 'Best score',
               bestPercent: '100%',
               detailAttempts: 'Attempts',
@@ -2489,7 +2489,7 @@ export class MainComponent {
               detailBest: 'Best score',
               bestPercent: '100%',
               detailAttempts: 'Attempts',
-              attempts: 7
+              attempts: 2
             },
             {
               detailName: 'Grammar Exercise 7',
@@ -2498,16 +2498,7 @@ export class MainComponent {
               detailBest: 'Best score',
               bestPercent: '100%',
               detailAttempts: 'Attempts',
-              attempts: 8
-            },
-            {
-              detailName: 'Grammar Exercise 8',
-              detatilScore: 'First score',
-              percent: '100%',
-              detailBest: 'Best score',
-              bestPercent: '100%',
-              detailAttempts: 'Attempts',
-              attempts: 1
+              attempts: 2
             }
           ]
         }
@@ -2517,7 +2508,7 @@ export class MainComponent {
           objFill: {
             completed: 2,
             fill: 2,
-            timeSpent: '0h 24m'
+            timeSpent: '0h 11m'
           },
         },
         {
@@ -2548,7 +2539,7 @@ export class MainComponent {
           objFill: {
             completed: 2,
             fill: 2,
-            timeSpent: '0h 24m'
+            timeSpent: '0h 22m'
           },
         },
         {
@@ -2579,7 +2570,7 @@ export class MainComponent {
           objFill: {
             completed: 2,
             fill: 2,
-            timeSpent: '0h 24m'
+            timeSpent: '0h 10m'
           },
         },
         {
